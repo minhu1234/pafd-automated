@@ -8,7 +8,7 @@ from getpass import getpass
 import re
 import base64
 import easyocr
-import io
+import io, random
 import numpy
 from PIL import Image
 from PIL import ImageEnhance

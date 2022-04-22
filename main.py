@@ -273,6 +273,10 @@ def get_account():
 
 
 if __name__ == '__main__':
+    #随机睡眠一段时间，4小时以内————Action最久可以运行6小时
+    sleepTime = random.randint(0, 14400)
+    time.sleep(sleepTime)
+    #休息好后再工作
     uid, psw = get_account()
     # print(uid, psw)
     zlapp_login = 'https://uis.fudan.edu.cn/authserver/login?' \
